@@ -9,7 +9,7 @@ import seaborn as sns
 df = pd.read_csv(r'student\student-mat.csv', sep=";")
 
 # the df.describe() method gives a statistical summary of the dataset, with mean, std (standard deviation), etc.
-# print(df.describe())
+print(df.describe())
 
 # df.info() method gives you info about the types of the valuesin the dataset
-print(df.info())
+# print(df.info())
